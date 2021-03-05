@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product-list > article > p::first-line {
+    font-weight: bold;
+}
+
+.menu a::before {
+    content: "<";
+}
+.menu a::after {
+    content: "<";
+}
+
+ 
